@@ -45,7 +45,6 @@ class ApplicationContextSameBeanFindTest {
     }
 
 
-
     @Configuration
     static class SameBeanConfig {
 
