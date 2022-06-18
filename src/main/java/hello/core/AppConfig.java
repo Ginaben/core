@@ -24,7 +24,7 @@ public class AppConfig {
     //call AppConfig.memberRepository
 
     //결과
-   //call AppConfig.memberService
+    //call AppConfig.memberService
     //call AppConfig.memberRepository
     //call AppConfig.orderService
 
@@ -44,7 +44,8 @@ public class AppConfig {
     @Bean
     public OrderService orderService(){
         System.out.println("call AppConfig.orderService");
-        return new OrderServiceImpl(memberRepository(), discountPolicy());
+//        return new OrderServiceImpl(memberRepository(), discountPolicy());
+        return null;
     }
 
     @Bean
